@@ -36,17 +36,17 @@ const About = () => {
               <div className="space-y-4 text-gray-700">
                 <p>
                   A JDA Consult foi fundada com a missão de oferecer consultoria especializada 
-                  para startups e MEI, combinando dois universos aparentemente distintos: 
-                  o Direito do Trabalho e a Gestão Hospitalar.
+                  para startups e MEI, combinando expertise jurídica e gestão empresarial 
+                  estratégica.
                 </p>
                 <p>
                   Esta combinação única de expertise surgiu da paixão de nossos fundadores 
                   por inovação e empreendedorismo, aliada ao profundo conhecimento jurídico 
-                  e experiência em gestão estratégica no setor hospitalar.
+                  e experiência em gestão estratégica empresarial.
                 </p>
                 <p>
                   Ao longo dos anos, percebemos que muitos dos princípios de eficiência e 
-                  gestão aplicados no exigente ambiente hospitalar podem ser adaptados 
+                  gestão aplicados no ambiente empresarial podem ser adaptados 
                   com grande sucesso para startups em fase inicial e microempreendedores.
                 </p>
                 <p>
@@ -75,16 +75,16 @@ const About = () => {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <BookOpen className="h-12 w-12 text-jda-accent mb-6" />
               <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                Direito do Trabalho e Processo do Trabalho
+                Consultoria Jurídica Empresarial
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Conformidade com a legislação trabalhista</span>
+                  <span>Conformidade com a legislação empresarial</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Consultoria em relações de trabalho</span>
+                  <span>Consultoria em estruturação empresarial</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
@@ -92,7 +92,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Contratos de trabalho e prestação de serviços</span>
+                  <span>Contratos empresariais e prestação de serviços</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
@@ -104,7 +104,7 @@ const About = () => {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Briefcase className="h-12 w-12 text-jda-accent mb-6" />
               <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                Gestão Hospitalar Aplicada aos Negócios
+                Gestão Empresarial Estratégica
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">

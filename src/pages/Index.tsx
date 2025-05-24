@@ -35,13 +35,13 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard
               title="Expertise Jurídica"
-              description="Especialistas em Direito do Trabalho e Processo do Trabalho, garantindo conformidade legal para seu negócio."
+              description="Especialistas em consultoria jurídica empresarial, garantindo conformidade legal para seu negócio."
               icon={<BookOpen className="h-10 w-10" />}
               delay={100}
             />
             <ServiceCard
               title="Gestão Estratégica"
-              description="Experiência em Gestão Hospitalar aplicada ao desenvolvimento de estratégias eficientes para startups e MEI."
+              description="Experiência em gestão empresarial aplicada ao desenvolvimento de estratégias eficientes para startups e MEI."
               icon={<Briefcase className="h-10 w-10" />}
               delay={200}
             />
@@ -80,8 +80,8 @@ const Index = () => {
             <div>
               <h2 className="text-gray-900 mb-4">Sobre a JDA Consult</h2>
               <p className="text-gray-600 mb-6">
-                A JDA Consult nasceu da visão de unir conhecimentos em Direito do Trabalho 
-                e Gestão Hospitalar para oferecer um serviço único de consultoria estratégica 
+                A JDA Consult nasceu da visão de unir conhecimentos jurídicos 
+                e gestão empresarial para oferecer um serviço único de consultoria estratégica 
                 para startups e MEI.
               </p>
               <p className="text-gray-600 mb-8">
@@ -110,10 +110,10 @@ const Index = () => {
                   <CheckCircle className="h-6 w-6 text-jda-accent mr-3 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">
-                      Especialistas em Direito do Trabalho
+                      Especialistas em Consultoria Jurídica
                     </h4>
                     <p className="text-gray-600">
-                      Formação especializada e vasta experiência em questões trabalhistas.
+                      Formação especializada e vasta experiência em questões jurídicas empresariais.
                     </p>
                   </div>
                 </div>
@@ -121,10 +121,10 @@ const Index = () => {
                   <CheckCircle className="h-6 w-6 text-jda-accent mr-3 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">
-                      Experiência em Gestão Hospitalar
+                      Experiência em Gestão Empresarial
                     </h4>
                     <p className="text-gray-600">
-                      Aplicamos princípios de gestão eficiente do setor hospitalar para otimizar operações empresariais.
+                      Aplicamos princípios de gestão eficiente para otimizar operações empresariais.
                     </p>
                   </div>
                 </div>

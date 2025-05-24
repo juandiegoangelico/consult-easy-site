@@ -15,7 +15,7 @@ const Index = () => {
       {/* Hero Section */}
       <Hero
         title="Consultoria Especializada para Startups e MEI"
-        subtitle="Combinamos expertise em Direito do Trabalho e Gestão Hospitalar para impulsionar seu negócio com estratégias inovadoras e sustentáveis."
+        subtitle="Combinamos expertise jurídica e gestão empresarial para impulsionar seu negócio com estratégias inovadoras e sustentáveis."
         cta={{ text: "Conheça Nossos Serviços", link: "/servicos" }}
         secondaryCta={{ text: "Entre em Contato", link: "/contato" }}
         isHomepage={true}

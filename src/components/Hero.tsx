@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -59,14 +58,6 @@ const Hero = ({
                   alt="JDA Consult"
                   className="rounded-lg shadow-lg max-w-full md:max-w-md lg:max-w-lg fade-in-section"
                 />
-              )}
-              {!imageUrl && (
-                <div className="rounded-lg bg-white/10 p-8 backdrop-blur-sm shadow-lg max-w-full md:max-w-md lg:max-w-lg fade-in-section">
-                  <div className="text-3xl font-bold text-white mb-3">JDA Consult</div>
-                  <div className="text-white/80">
-                    Especialistas em startups e MEI, combinando conhecimento jurídico e gestão estratégica para o sucesso do seu negócio.
-                  </div>
-                </div>
               )}
             </div>
           </div>

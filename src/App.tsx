@@ -9,6 +9,8 @@ import Footer from "./components/Footer";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import StartupServicesPage from "./pages/StartupServices";
+import MEIServicesPage from "./pages/MEIServices";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
@@ -29,6 +31,8 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/sobre" element={<About />} />
             <Route path="/servicos" element={<Services />} />
+            <Route path="/servicos-startups" element={<StartupServicesPage />} />
+            <Route path="/servicos-mei" element={<MEIServicesPage />} />
             <Route path="/contato" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />

@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -24,17 +23,13 @@ const Navbar = () => {
   const menuItems = [
     { label: "Início", path: "/" },
     { label: "Sobre Nós", path: "/sobre" },
-    { label: "Serviços para Startups", path: "/servicos#startups" },
-    { label: "Serviços para MEI", path: "/servicos#mei" },
+    { label: "Serviços para Startups", path: "/servicos-startups" },
+    { label: "Serviços para MEI", path: "/servicos-mei" },
     { label: "Depoimentos", path: "/depoimentos" },
     { label: "Blog", path: "/blog" },
   ];
 
   const isActive = (path: string) => {
-    if (path.includes("#")) {
-      const basePath = path.split("#")[0];
-      return location.pathname === basePath;
-    }
     return location.pathname === path;
   };
 

@@ -24,12 +24,19 @@ const Navbar = () => {
   const menuItems = [
     { label: "Início", path: "/" },
     { label: "Sobre Nós", path: "/sobre" },
-    { label: "Serviços", path: "/servicos" },
+    { label: "Serviços para Startups", path: "/servicos#startups" },
+    { label: "Serviços para MEI", path: "/servicos#mei" },
     { label: "Depoimentos", path: "/depoimentos" },
     { label: "Blog", path: "/blog" },
   ];
 
-  const isActive = (path: string) => location.pathname === path;
+  const isActive = (path: string) => {
+    if (path.includes("#")) {
+      const basePath = path.split("#")[0];
+      return location.pathname === basePath;
+    }
+    return location.pathname === path;
+  };
 
   return (
     <header

@@ -8,14 +8,6 @@ import { Star } from "lucide-react";
 const testimonialsData = [
   {
     id: 1,
-    name: "Ana Silva",
-    role: "CEO",
-    company: "TechHealth Startup",
-    content: "A consultoria da JDA foi fundamental para estruturarmos nosso modelo de negócio e prepararmos nossa startup para receber investimentos. O conhecimento em gestão hospitalar fez toda a diferença! Recomendo fortemente para qualquer startup da área de saúde.",
-    rating: 5
-  },
-  {
-    id: 2,
     name: "Carlos Mendes",
     role: "Microempreendedor Individual",
     company: "",
@@ -23,23 +15,7 @@ const testimonialsData = [
     rating: 5
   },
   {
-    id: 3,
-    name: "Mariana Costa",
-    role: "Fundadora",
-    company: "Inova Tech",
-    content: "A JDA Consult nos guiou durante todo o processo de validação do nosso modelo de negócio e nos preparou para apresentações a investidores. O resultado foi um aporte que superou nossas expectativas. A combinação de conhecimento jurídico e estratégico é imbatível!",
-    rating: 5
-  },
-  {
-    id: 4,
-    name: "Roberto Almeida",
-    role: "Diretor Financeiro",
-    company: "Saúde Digital",
-    content: "Buscávamos uma consultoria que entendesse o ambiente regulatório da saúde e encontramos muito mais na JDA. Sua orientação nos ajudou a evitar armadilhas jurídicas enquanto desenvolvíamos nosso produto, economizando tempo e recursos valiosos.",
-    rating: 5
-  },
-  {
-    id: 5,
+    id: 2,
     name: "Fernanda Lima",
     role: "Empreendedora",
     company: "Espaço Bem-Estar",
@@ -47,15 +23,7 @@ const testimonialsData = [
     rating: 5
   },
   {
-    id: 6,
-    name: "Lucas Oliveira",
-    role: "Co-fundador",
-    company: "EduTech Startup",
-    content: "A análise de mercado realizada pela JDA nos proporcionou insights que mudaram completamente nossa estratégia de entrada no mercado. O resultado foi uma adoção mais rápida pelos clientes e menor custo de aquisição.",
-    rating: 5
-  },
-  {
-    id: 7,
+    id: 3,
     name: "Juliana Santos",
     role: "Arquiteta",
     company: "MEI",
@@ -63,19 +31,51 @@ const testimonialsData = [
     rating: 5
   },
   {
+    id: 4,
+    name: "Roberto Silva",
+    role: "Consultor Freelancer",
+    company: "MEI",
+    content: "A JDA me orientou durante todo o processo de formalização como MEI e me ensinou a organizar minha contabilidade de forma simples. Hoje tenho mais segurança jurídica e consigo focar no que faço de melhor: atender meus clientes.",
+    rating: 5
+  },
+  {
+    id: 5,
+    name: "Marina Costa",
+    role: "Designer Gráfica",
+    company: "MEI",
+    content: "Estava trabalhando informalmente há anos e tinha medo de me formalizar. A JDA me mostrou que ser MEI era muito mais simples do que imaginava e me ajudou com todos os aspectos legais. Meu negócio nunca esteve tão organizado!",
+    rating: 5
+  },
+  {
+    id: 6,
+    name: "Paulo Oliveira",
+    role: "Eletricista",
+    company: "MEI",
+    content: "Como MEI na área de serviços, eu tinha dúvidas sobre contratos e responsabilidades. A consultoria da JDA esclareceu todas as questões legais e me deu segurança para crescer meu negócio de forma correta.",
+    rating: 5
+  },
+  {
+    id: 7,
+    name: "Ana Paula",
+    role: "Confeiteira",
+    company: "MEI",
+    content: "A JDA me ajudou não apenas com a formalização do MEI, mas também com dicas práticas de gestão financeira. Aprendi a separar as contas pessoais das do negócio e a planejar melhor meus investimentos.",
+    rating: 5
+  },
+  {
     id: 8,
-    name: "Pedro Rocha",
-    role: "CEO",
-    company: "Logística Inteligente",
-    content: "Nossa startup estava enfrentando desafios na definição de métricas de desempenho. A experiência da JDA em gestão hospitalar trouxe uma perspectiva única para nossos processos, resultando em maior eficiência operacional.",
+    name: "Ricardo Santos",
+    role: "Fotógrafo",
+    company: "MEI",
+    content: "Trabalho como fotógrafo freelancer e a JDA me orientou sobre todos os aspectos legais do MEI. Agora posso emitir notas fiscais com tranquilidade e tenho respaldo jurídico para meus contratos de serviço.",
     rating: 5
   },
   {
     id: 9,
-    name: "Camila Vasconcelos",
-    role: "Diretora de Operações",
-    company: "FoodTech",
-    content: "A consultoria da JDA nos ajudou a implementar processos operacionais eficientes desde o início, evitando retrabalho e permitindo escalar de forma sustentável. Sua abordagem prática e objetiva fez toda a diferença.",
+    name: "Carla Rodrigues",
+    role: "Manicure",
+    company: "MEI",
+    content: "Sempre trabalhei em casa fazendo unhas, mas queria me formalizar. A JDA me mostrou como o MEI poderia beneficiar meu negócio e me ajudou com todo o processo. Agora tenho CNPJ e posso crescer com segurança!",
     rating: 5
   }
 ];
@@ -86,7 +86,7 @@ const Testimonials = () => {
       {/* Hero Section */}
       <Hero
         title="Depoimentos"
-        subtitle="Veja o que nossos clientes dizem sobre nossa consultoria especializada"
+        subtitle="Veja o que nossos clientes MEI dizem sobre nossa consultoria especializada"
         backgroundClass="bg-gradient-to-r from-jda-dark via-jda to-jda-light"
       />
 
@@ -119,7 +119,7 @@ const Testimonials = () => {
             </div>
             
             <p className="text-xl md:text-2xl text-gray-700 italic text-center mb-8">
-              "A consultoria da JDA transformou completamente nossa abordagem de negócio. A combinação única de conhecimento jurídico especializado com expertise em gestão hospitalar nos proporcionou insights valiosos que não encontraríamos em consultores tradicionais."
+              "A consultoria da JDA transformou completamente minha relação com a formalização do MEI. O que antes parecia complicado e assustador se tornou simples e acessível. Hoje tenho um negócio organizado e legal, com todo o suporte que preciso para crescer."
             </p>
             
             <div className="flex flex-col items-center">
@@ -127,7 +127,7 @@ const Testimonials = () => {
                 MS
               </div>
               <h3 className="text-xl font-bold text-gray-800">Marcelo Souza</h3>
-              <p className="text-gray-600">CEO, HealthTech Solutions</p>
+              <p className="text-gray-600">Consultor de TI, MEI</p>
             </div>
           </div>
         </div>
@@ -138,10 +138,10 @@ const Testimonials = () => {
         <div className="container-custom">
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Seja o próximo caso de sucesso
+              Seja o próximo MEI de sucesso
             </h2>
             <p className="text-lg md:text-xl mb-8 opacity-90">
-              Junte-se aos clientes satisfeitos que transformaram seus negócios com nossa consultoria especializada.
+              Junte-se aos microempreendedores que formalizaram seus negócios com nossa consultoria especializada em MEI.
             </p>
             <Button asChild size="lg" className="bg-white text-jda hover:bg-gray-100">
               <Link to="/contato">Agende uma Consulta</Link>

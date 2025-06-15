@@ -6,18 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 
-// Mock blog posts data
+// Mock blog posts data - apenas MEI
 const blogPosts = [
-  {
-    id: "1",
-    title: "5 Estratégias para Validar seu Modelo de Negócio",
-    excerpt: "Descubra metodologias eficazes para validar seu modelo de negócio antes de investir recursos significativos.",
-    imageUrl: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2070&auto=format&fit=crop",
-    date: "15 Maio, 2025",
-    slug: "estrategias-validar-modelo-negocio",
-    category: "Startups",
-    authorName: "JDA Consult"
-  },
   {
     id: "2",
     title: "Guia Completo para MEI: Direitos e Obrigações",
@@ -29,42 +19,52 @@ const blogPosts = [
     authorName: "JDA Consult"
   },
   {
-    id: "3",
-    title: "Como Preparar sua Startup para Captar Investimentos",
-    excerpt: "Passos essenciais para estruturar sua startup e se preparar adequadamente para apresentações a investidores.",
-    imageUrl: "https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=2070&auto=format&fit=crop",
-    date: "20 Abril, 2025",
-    slug: "preparar-startup-captar-investimentos",
-    category: "Investimentos",
-    authorName: "JDA Consult"
-  },
-  {
-    id: "4",
-    title: "Aspectos Jurídicos Essenciais para Startups",
-    excerpt: "Conheça os principais pontos jurídicos que toda startup deve considerar desde sua fundação.",
-    imageUrl: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop",
-    date: "10 Abril, 2025",
-    slug: "aspectos-juridicos-startups",
-    category: "Jurídico",
-    authorName: "JDA Consult"
-  },
-  {
-    id: "5",
-    title: "Indicadores de Desempenho: KPIs para o Sucesso da sua Startup",
-    excerpt: "Aprenda quais métricas são essenciais para monitorar e impulsionar o crescimento da sua startup.",
-    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2026&auto=format&fit=crop",
-    date: "01 Abril, 2025",
-    slug: "kpis-sucesso-startup",
-    category: "Gestão",
-    authorName: "JDA Consult"
-  },
-  {
     id: "6",
     title: "Benefícios Fiscais para MEI em Florianópolis",
     excerpt: "Descubra incentivos fiscais e programas de apoio disponíveis para MEIs na região de Florianópolis.",
     imageUrl: "https://images.unsplash.com/photo-1575503802870-45de6a6217c8?q=80&w=2070&auto=format&fit=crop",
     date: "25 Março, 2025",
     slug: "beneficios-fiscais-mei-florianopolis",
+    category: "MEI",
+    authorName: "JDA Consult"
+  },
+  {
+    id: "7",
+    title: "Como Organizar as Finanças do seu MEI",
+    excerpt: "Dicas práticas para manter a contabilidade do seu MEI organizada e em dia com todas as obrigações.",
+    imageUrl: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2070&auto=format&fit=crop",
+    date: "15 Março, 2025",
+    slug: "organizar-financas-mei",
+    category: "Gestão",
+    authorName: "JDA Consult"
+  },
+  {
+    id: "8",
+    title: "MEI: Quando é Hora de Migrar para ME",
+    excerpt: "Entenda os sinais de que seu negócio cresceu e quando considerar a migração do MEI para Microempresa.",
+    imageUrl: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=2070&auto=format&fit=crop",
+    date: "05 Março, 2025",
+    slug: "mei-quando-migrar-me",
+    category: "MEI",
+    authorName: "JDA Consult"
+  },
+  {
+    id: "9",
+    title: "Aspectos Jurídicos Essenciais para MEI",
+    excerpt: "Conheça os principais pontos jurídicos que todo MEI deve considerar para manter seu negócio regularizado.",
+    imageUrl: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=2070&auto=format&fit=crop",
+    date: "20 Fevereiro, 2025",
+    slug: "aspectos-juridicos-mei",
+    category: "Jurídico",
+    authorName: "JDA Consult"
+  },
+  {
+    id: "10",
+    title: "DAS MEI: Guia Completo de Pagamento",
+    excerpt: "Tudo sobre o Documento de Arrecadação do Simples Nacional para MEI: prazos, valores e como pagar.",
+    imageUrl: "https://images.unsplash.com/photo-1554224154-26032fbed8bd?q=80&w=2070&auto=format&fit=crop",
+    date: "10 Fevereiro, 2025",
+    slug: "das-mei-guia-pagamento",
     category: "MEI",
     authorName: "JDA Consult"
   }
@@ -93,7 +93,7 @@ const Blog = () => {
       {/* Hero Section */}
       <Hero
         title="Blog JDA Consult"
-        subtitle="Insights, dicas e estratégias para startups e microempreendedores individuais"
+        subtitle="Insights, dicas e estratégias para microempreendedores individuais"
         backgroundClass="bg-gradient-to-r from-jda-dark via-jda to-jda-light"
       />
 
@@ -165,7 +165,7 @@ const Blog = () => {
               Inscreva-se em nossa Newsletter
             </h2>
             <p className="text-gray-600 mb-8">
-              Receba nossos artigos mais recentes, dicas exclusivas e atualizações diretamente na sua caixa de entrada.
+              Receba nossos artigos mais recentes, dicas exclusivas e atualizações sobre MEI diretamente na sua caixa de entrada.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">

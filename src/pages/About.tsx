@@ -36,23 +36,23 @@ const About = () => {
               <div className="space-y-4 text-gray-700">
                 <p>
                   A JDA Consult foi fundada com a missão de oferecer consultoria especializada 
-                  para startups e MEI, combinando expertise jurídica e gestão empresarial 
+                  para Microempreendedores Individuais (MEI), combinando expertise jurídica e gestão empresarial 
                   estratégica.
                 </p>
                 <p>
                   Esta combinação única de expertise surgiu da paixão de nossos fundadores 
-                  por inovação e empreendedorismo, aliada ao profundo conhecimento jurídico 
+                  por empreendedorismo individual e pequenos negócios, aliada ao profundo conhecimento jurídico 
                   e experiência em gestão estratégica empresarial.
                 </p>
                 <p>
                   Ao longo dos anos, percebemos que muitos dos princípios de eficiência e 
                   gestão aplicados no ambiente empresarial podem ser adaptados 
-                  com grande sucesso para startups em fase inicial e microempreendedores.
+                  com grande sucesso para microempreendedores individuais.
                 </p>
                 <p>
                   Hoje, nossa equipe multidisciplinar trabalha incansavelmente para 
                   transformar desafios em oportunidades, oferecendo orientação jurídica 
-                  e estratégica personalizada para cada cliente.
+                  e estratégica personalizada para cada MEI.
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ const About = () => {
             <h2 className="text-gray-900 mb-4">Nossa Expertise</h2>
             <p className="text-gray-600 max-w-3xl mx-auto text-lg">
               Combinamos conhecimento jurídico especializado com gestão estratégica para 
-              oferecer soluções completas aos nossos clientes.
+              oferecer soluções completas aos Microempreendedores Individuais.
             </p>
           </div>
 
@@ -75,28 +75,28 @@ const About = () => {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <BookOpen className="h-12 w-12 text-jda-accent mb-6" />
               <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                Consultoria Jurídica Empresarial
+                Consultoria Jurídica para MEI
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Conformidade com a legislação empresarial</span>
+                  <span>Formalização e abertura de MEI</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Consultoria em estruturação empresarial</span>
+                  <span>Consultoria em conformidade legal</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Prevenção de riscos jurídicos</span>
+                  <span>Orientação sobre obrigações fiscais</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Contratos empresariais e prestação de serviços</span>
+                  <span>Contratos para prestação de serviços</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Participação nas comissões da OAB/SC</span>
+                  <span>Suporte em questões trabalhistas</span>
                 </li>
               </ul>
             </div>
@@ -104,28 +104,28 @@ const About = () => {
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Briefcase className="h-12 w-12 text-jda-accent mb-6" />
               <h3 className="text-2xl font-semibold mb-4 text-gray-800">
-                Gestão Empresarial Estratégica
+                Gestão Empresarial para MEI
               </h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
+                  <span>Organização financeira e contábil</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
+                  <span>Planejamento estratégico do negócio</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
+                  <span>Controle de fluxo de caixa</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
+                  <span>Estratégias de crescimento sustentável</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
                   <span>Otimização de processos operacionais</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Implementação de indicadores de desempenho</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Gestão eficiente de recursos</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Estruturação de equipes de alto desempenho</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-jda-accent mr-2 mt-1" />
-                  <span>Aplicação de metodologias ágeis em startups</span>
                 </li>
               </ul>
             </div>
@@ -151,7 +151,7 @@ const About = () => {
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Excelência</h3>
               <p className="text-gray-600">
                 Buscamos a excelência em tudo o que fazemos, oferecendo serviços de alta qualidade 
-                e resultados tangíveis para nossos clientes.
+                e resultados tangíveis para nossos clientes MEI.
               </p>
             </div>
 
@@ -161,7 +161,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Empatia</h3>
               <p className="text-gray-600">
-                Colocamo-nos no lugar dos nossos clientes, compreendendo seus desafios e 
+                Colocamo-nos no lugar dos nossos clientes microempreendedores, compreendendo seus desafios e 
                 trabalhando lado a lado para superá-los.
               </p>
             </div>
@@ -173,7 +173,7 @@ const About = () => {
               <h3 className="text-xl font-semibold mb-3 text-gray-800">Inovação</h3>
               <p className="text-gray-600">
                 Promovemos constantemente novas ideias e abordagens, adaptando-nos às 
-                mudanças e incentivando a inovação em tudo o que fazemos.
+                mudanças e incentivando a inovação no empreendedorismo individual.
               </p>
             </div>
           </div>
@@ -188,7 +188,7 @@ const About = () => {
               Vamos trabalhar juntos
             </h2>
             <p className="text-lg opacity-90 mb-8">
-              Estamos prontos para ajudar sua startup ou MEI a alcançar seu potencial 
+              Estamos prontos para ajudar seu MEI a alcançar seu potencial 
               máximo com nossa consultoria especializada.
             </p>
             <Button asChild size="lg" className="bg-white text-jda hover:bg-gray-100">
